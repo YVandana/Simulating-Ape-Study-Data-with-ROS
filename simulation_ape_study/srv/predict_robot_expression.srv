@@ -1,0 +1,8 @@
+#This service predicts the robots expression
+int64 object_size #size of object/toy 1 or 2
+int64 human_action # human action 1 or 2 or 3
+int64 human_expression # human expression 1 or 2 or 3
+---
+float64 p_happy
+float64 p_sad
+float64 p_neutral
